@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+    color: white;
+}
+.interface {
+    vertical-align: middle;
+    position: relative;
+    justify-content: center;
+    border: 0px white solid;
+    border-radius: 55%;
+    box-shadow: 0px 0px 15px;
+    color: white;
+    margin: 0 auto;
+    width: 35vh;
+    height: 35vh;
+    min-height: 250px;
+    min-width: 250px;
+    padding: 15px 15px;
+    top: 30vh;
+}
+button {
+    color: white;
+    background-color: black;
+    font-family: Helvetica;
+    margin-top: 2vh;
+    border-radius: 9999px;
+    width: 8vh;
+    height: 4vh;
+    font-size: 2vh;
+}
+button:hover{
+    color: black;
+    background-color: azure;
+}
+.timer{
+    text-align: center
+}
+h1 {
+    padding-top: 5vh;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#timer {
+    color: white;
+}
+
+#startbutton:hover {
+    box-shadow: 2px 2px 3px rgb(48, 197, 28) ;
+    color: rgb(48, 197, 28);
+}
+
+#stopbutton:hover {
+    box-shadow: 2px 2px 3px red ;
+    color: red;
+}
+
+#restartbutton:hover {
+    box-shadow: 2px 2px 3px white ;
+}
